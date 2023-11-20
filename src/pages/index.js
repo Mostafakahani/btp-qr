@@ -4,15 +4,15 @@ import Link from 'next/link'
 
 export default function Home() {
   const btnData = [
-    { text: 'ورود به سایت', link: '' },
-    { text: 'ارسال پیام در واتس اپ', link: '' },
-    { text: 'تماس با کارشناسان', link: '' },
+    { text: 'ورود به سایت', link: 'https://btp.one/' },
+    { text: 'ارسال پیام در واتس اپ', link: 'https://api.whatsapp.com/send?phone=989123654022' },
+    { text: 'تماس با کارشناسان', link: 'https://api.whatsapp.com/send?phone=989123654022' },
   ]
   const socialData = [
-    { img: '/instagram.svg', link: '' },
+    { img: '/instagram.svg', link: 'https://instagram.com/btp.one/' },
     { img: '/youtube.svg', link: '' },
-    { img: '/linkedin.svg', link: '' },
-    { img: '/telegram.svg', link: '' },
+    { img: '/linkedin.svg', link: 'https://linkedin.com/company/btp-one' },
+    { img: '/telegram.svg', link: 'https://t.me/btp_one' },
     { img: '/twiter.svg', link: '' },
     { img: '/aparat.svg', link: '' },
 
